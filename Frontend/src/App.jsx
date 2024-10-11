@@ -9,7 +9,7 @@ function App() {
     <>
       <h2>Video player streaming</h2>
       <video controls height={500}>
-        <source src="http://localhost:3000/streamfile" type="video/mp4"></source>
+        <source src="http://localhost:3000/rangestreaming" type="video/mp4"></source>
       </video>
     </>
   )
